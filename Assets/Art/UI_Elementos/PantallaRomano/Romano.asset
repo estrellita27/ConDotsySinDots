@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Romano
   m_EditorClassIdentifier: 
   ejercito: ROMANO
-  Cantidad: 0
-  Vida: 0
-  Fuerza: 0
-  Velocidad: 0
+  Cantidad: 15
+  Vida: 10
+  Fuerza: 10
+  Velocidad: 10
   Descripcion: ESTE SOLDADO, ES HONORABLE Y LEAL. ESTA COMPROMETIDO CON SU DEBER
     Y ESTA DISPUESTO A LUCHAR Y MORIR POR LOS SUYOS.
   Modelo: {fileID: 21300000, guid: 5a8b2237c41f36b4da7cae6b1e2b41da, type: 3}
