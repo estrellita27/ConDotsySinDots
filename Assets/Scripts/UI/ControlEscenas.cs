@@ -33,6 +33,10 @@ public class ControlEscenas : MonoBehaviour
         SceneManager.LoadScene("PantallaPrincipal");
     }
 
+    public void Dots(){
+        SceneManager.LoadScene("Dots");
+    }
+
     public void Salir(){
         Application.Quit();
     }

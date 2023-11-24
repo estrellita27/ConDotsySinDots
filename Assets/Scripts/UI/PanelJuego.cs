@@ -21,11 +21,18 @@ public class PanelJuego : MonoBehaviour
         CantidadR = Romano.getCantidad();
         CantidadA = Alien.getCantidad();
 
+        
+
         UpdateCantidad();
     }
 
 
     void UpdateCantidad(){
+
+        if(CantidadR == 0){
+            SceneManager.LoadScene("PantallaGanadorAlien");
+        }
+        
         CantidadRomano.text = CantidadR.ToString();
         CantidadAlien.text = CantidadA.ToString();
     }
